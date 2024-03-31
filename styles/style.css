@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #F3F5FC ;
+  font-family: 'roboto', sans-serif;
+  margin: 40px 0 0 0;
+}
+
+.imagen-a img {
+  position: absolute;
+  padding: 30px;
+  height: 60px;
+  top: 20px;
+  left: 5px;
+}
+
+.interrogatorio {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: left;
+  margin: 10px 0 10px 0;
+  width: 75%;
+  font-size: 23px;
+}
+
+.interrogatorio img {
+  height: 25px;
+}
+
+.fondo {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.textarea1 {
+  display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+  width: 60%; 
+}
+
+.textarea2 {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 25%;
+  height: 850px;
+  border-radius: 35px;
+  z-index: 10;
+  box-shadow: 2px 2px 22px rgb(210, 207, 207);
+  position: relative;
+  gap: 20px;
+  justify-content: center;
+}
+
+.textarea1 textarea{
+  width: 75%;
+  height: 640px;
+  background-color: #F3F5FC;
+  color: #0A3871; 
+  font-size: 50px;
+  box-sizing: border-box;
+  overflow: auto hidden;
+  resize: none;
+  outline: none;
+  border: none;
+  margin: 7% 0 0 0;
+}
+
+.textarea2 textarea{  
+  height: 80%;
+  font-size: 33px;
+  color: #495057;
+  box-sizing: border-box;
+  overflow: auto hidden;
+  resize: none;
+  outline: none;
+  border: none;
+  margin: 0 20px;
+  
+}
+
+.ocultar-div {
+  display: none;
+}
+
+.imagen-persona {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 35px;
+  height: 100%;
+  width: 100%;
+  gap: 20px;
+  justify-content: center;
+}
+
+.imagen-persona img {
+  margin: 0 15%;
+}
+
+.texto-arriba{
+  text-align: center;
+  font-size: 35px;
+  color: #343A40;
+  font-family: "Poppins", sans-serif;
+}
+
+.texto-abajo {
+  margin: 0 10%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color:#495057;
+}
+
+.btn-Encriptar-Desencriptar {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.btn-Copiar{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-Desencriptar button{
+  background-color: #F3F5FC;
+  border: 1px solid #0A3871;
+  color: #0A3871;
+  cursor: pointer;
+  height: 90px;
+  text-align: center;
+  font-size: 35px;
+  border-radius: 22px;
+  padding: 20px 110px ;
+}
+
+.btn-Encriptar button{
+  background-color: #0A3871;
+  border: 2px solid #0A3871;
+  color: #F3F5FC;
+  cursor: pointer;
+  text-align: center;
+  font-size: 35px;
+  border-radius: 22px;
+  padding: 20px 120px;
+}
+
+.btn-Copiar button{ 
+  background-color: white;
+  cursor: pointer;
+  width: 80%;
+  height: 90px;
+  font-size: 30px;
+  border-radius: 22px;
+  border: 1px solid #0A3871;
+  color: #0A3871;
+  justify-content: center;
+}
